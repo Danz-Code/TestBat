@@ -1,4 +1,4 @@
-@echo off
+  @echo off
 title Free activation microsot office 2021 - Danxyz19 &cls&(net session >nul 2>&1)
 if %errorLevel% GTR 0 (echo.&echo ERROR!. Run CMD as administrator...&echo.&goto halt)
 color 2
@@ -14,8 +14,8 @@ echo.&echo =====================================================================
 if %i% GTR 5 (goto busy) else if %i% LEQ 3 (set KMS=s1.keyms.id) else if %i% LEQ 5 (set KMS=e8.us.to)
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 :ato
-echo.&cscript //nologo ospp.vbs /act | find /i "successful" > temp.txt && (echo.&echo Follow instagram @danxyz19 terlebih dahulu agar aktivasi microsoft office berhasil.&echo.& if errorlevel 2 exit) || (echo  sistem membutuhkan waktu lebih lama, harap menunggu... & echo. & echo. & set /a i+=1 & timeout /t 10 >nul & goto skms)&timeout /t 7 >nul&explorer "https://instagram.com/danxyz19"&echo.
-echo =====================================================================================&echo.&type temp.txt&echo.&echo =====================================================================================&echo.&echo.&echo Need Help?, DM me ON Instagram @danxyz19.&echo
+echo.&cscript //nologo ospp.vbs /act | find /i "successful" > temp.txt && (echo.&echo Follow instagram @danxyz19 &echo.& if errorlevel 2 exit) || (echo  sistem membutuhkan waktu lebih lama, harap menunggu... & echo. & echo. & set /a i+=1 & timeout /t 10 >nul & goto skms)&timeout /t 7 >nul&explorer "https://instagram.com/danxyz19"&echo.
+echo =====================================================================================&echo.&type temp.txt&echo.&echo =====================================================================================&echo.&echo.&echo Need Help?, DM me ON Instagram @danxyz19.&echo.&goto halt 
 :notsupported
 echo =====================================================================================&echo.&echo Office anda tidak support dengan script ini. &echo.&goto halt
 :wshdisabled
