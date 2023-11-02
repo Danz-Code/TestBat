@@ -1,8 +1,7 @@
 @echo off
 title Free activation microsot office 2021 - Danxyz19 &cls&(net session >nul 2>&1)
 if %errorLevel% GTR 0 (echo.&echo ERROR!. Run CMD as administrator...&echo.&goto halt)
-echo "
- _______                                                      __     ______  
+echo "_______                                                      __     ______  
 /       \                                                   _/  |   /      \ 
 $$$$$$$  | ______   _______   __    __  __    __  ________ / $$ |  /$$$$$$  |
 $$ |  $$ |/      \ /       \ /  \  /  |/  |  /  |/        |$$$$ |  $$ \__$$ |
